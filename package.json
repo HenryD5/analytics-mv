@@ -1,6 +1,6 @@
 {
   "name": "analytics-mv",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "send data events to api attribution",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -5,7 +5,7 @@
     return 'succeed !!!' 
  } */
 
-import axios from 'axios';
+/* import axios from 'axios';
  // import type { Data } from './models/types'
 
 class ApiSender {
@@ -27,4 +27,4 @@ class ApiSender {
   }
 }
 
-export default ApiSender
+export default ApiSender */

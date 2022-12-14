@@ -1,2 +1,1 @@
-//import { sendDataToApi } from "./sendDataToApi";
-export * from "./sendDataToApi";
+export * from "./apiSender";

@@ -6,16 +6,16 @@
  } */
 
 import axios from 'axios';
-import type { Data } from './models/types'
+ // import type { Data } from './models/types'
 
-export class ApiSender {
+class ApiSender {
   private url: string;
 
   constructor(url: string) {
     this.url = url;
   }
 
-  public async sendData(data: Data | any) {
+  public async sendData(data: any) {
     try {
       console.log('url ...', this.url)
       console.log('data ...', data)
@@ -27,4 +27,4 @@ export class ApiSender {
   }
 }
 
-// export ApiSender
+export default ApiSender

@@ -8,7 +8,7 @@
 import axios from 'axios';
 import type { Data } from './models/types'
 
-class ApiSender {
+export class ApiSender {
   private url: string;
 
   constructor(url: string) {
@@ -27,4 +27,4 @@ class ApiSender {
   }
 }
 
-export default ApiSender
+// export ApiSender

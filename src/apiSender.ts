@@ -15,8 +15,6 @@ class ApiSender {
       const config = {
         headers: { Authorization: `Bearer ${this.token}` }
       };
-      console.log('url ...', this.url)
-      console.log('data ...', data)
       const response = await axios.post(this.url, data, config);
       return response.data;
     } catch (error) {

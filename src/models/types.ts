@@ -1,4 +1,4 @@
-/* export interface Data {
+export interface Data {
     event_name?: string | any
     event_source?: string | any
     utm_campaign?: string | any
@@ -14,4 +14,4 @@
     is_desktop?: boolean | any
     version_app?: string | any
     language?: string | any
-} */
+}

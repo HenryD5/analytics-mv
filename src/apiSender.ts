@@ -1,12 +1,5 @@
-/* export async function sendDataToApi(data: any, url: string) {
-    console.log('url ...', url)
-    console.log('data ...', data)
-    // console.log('succeed !!!')
-    return 'succeed !!!' 
- } */
-
-/* import axios from 'axios';
- // import type { Data } from './models/types'
+import axios from 'axios';
+import type { Data } from './models/types'
 
 class ApiSender {
   private url: string;
@@ -15,7 +8,7 @@ class ApiSender {
     this.url = url;
   }
 
-  public async sendData(data: any) {
+  public async sendData(data: Data | any) {
     try {
       console.log('url ...', this.url)
       console.log('data ...', data)
@@ -27,4 +20,4 @@ class ApiSender {
   }
 }
 
-export default ApiSender */
+export default ApiSender;
